@@ -73,6 +73,10 @@ header{
   justify-content: center;
   gap: 2rem;
 }
+ a{
+  color: red;
+ }
+
 a:hover {
   color: rgb(98, 92, 92);
 }
@@ -81,9 +85,6 @@ a:hover {
   color: aqua;
 } */
 
-a:visited{
-  color: rgb(238, 0, 0);
-}
 
 .writing {
   background-color: black;
