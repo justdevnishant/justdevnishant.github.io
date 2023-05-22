@@ -81,7 +81,7 @@ a:hover {
   color: aqua;
 } */
 
-:visited{
+a:visited{
   color: rgb(238, 0, 0);
 }
 
