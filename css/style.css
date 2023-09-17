@@ -17,6 +17,39 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.button-message {
+  display:block;
+  margin-top: 10px;
+  position: sticky;
+  z-index: 100;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.message {
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 10px;
+
+}
+
+.message:hover {
+  box-shadow: 5px 5px 10px black;
+  transition: box-shadow 0.3s ease-in-out;
+  background-color: black;
+  color: white;
+  transition: background 0.4s ease-in-out;
+
+}
+
 /* .header_div{
   display:grid;
   width: 50vh;
