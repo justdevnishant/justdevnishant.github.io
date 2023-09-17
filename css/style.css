@@ -5,16 +5,15 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  color: black;
-  scroll-behavior:smooth;
 }
 
 
 body{
   width: auto;
   height: auto;
-  background-color: white;
+  background-color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  scroll-behavior: smooth;
 }
 
 .button-message {
@@ -27,7 +26,7 @@ body{
   justify-content: center;
 }
 
-.message {
+.message{
   background-color: white;
   font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
@@ -36,17 +35,21 @@ body{
   padding: 10px 30px 10px 30px;
   cursor: pointer;
   margin-bottom: 20px;
-  box-shadow: 1px 1px 5px black;
+  box-shadow: 2px 2px 5px white;
   border-radius: 10px;
 
 }
 
-.message:hover {
-  box-shadow: 5px 5px 10px black;
+.message:hover, .message::after {
+  box-shadow: 5px 5px 10px white;
   transition: box-shadow 0.3s ease-in-out;
   background-color: black;
   color: white;
   transition: background 0.4s ease-in-out;
+}
+
+.message::backdrop{
+  background-color: white;
 
 }
 
@@ -80,23 +83,24 @@ body{
   background-color: black;
 } */
 
+.logo {
+ margin-right: 4%;
+ margin-left: 4%;
+}
+
 .logo_text {
   display: flex;
   justify-content: center;
-  background-color: rgba(245, 245, 245, 0);
+  color: rgb(254, 35, 35);
   height: 100px;
   font-size: 11rem;
   overflow: hidden;
-}
-
-.logo_top{
-  position: sticky;
-  top: 0;
+  box-shadow: 1px 1px 10px red;
 }
 
 header{
   position: sticky;
-  top: 1rem;
+  top: 4rem;
   z-index: +1;
 }
 
@@ -111,27 +115,55 @@ header{
  }
 
 a:hover {
-  color: rgb(98, 92, 92);
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.home, .project, .connect, .hire {
+  box-shadow: 2px 2px 5px rgb(213, 213, 213);
+  border-radius: 10px;
+  padding: 5px;
 }
 
 /* a::placeholder {
   color: aqua;
 } */
 
+.content {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 0.5rem;
+  max-width: 80%;
+  box-shadow: 5px 5px 10px white;
+  margin-left: 10%;
+}
+
+.inst-link{
+  color: white;
+}
+.inst-link:hover {
+  color: rgb(219, 102, 122);
+  transition: all 0.3s ease-in-out;
+}
+
 
 .writing {
   /* background-color: black; */
-  font-family:'Times New Roman', Times, serif;
   padding: 1rem;
+  font-family: sans-serif;
   top: 30%;
-  row-gap: 10rem;
+  margin: 0.8rem;
   position: relative;
   border-radius: 1rem;
+  background-color: rgb(29, 28, 28);
 }
 
-h4{
-  font-family:monospace;
-  color: whitesmoke;
+h4 {
+  color: white;
+  font-weight: lighter;
+  font-size: 1rem;
+  font-variant: small-caps;
+  letter-spacing: 1px;
 }
 
 .break{
@@ -166,15 +198,16 @@ main{
 .bottom_div {
   display: grid;
   place-content: center;
-  background-color: black;
+  background-color: rgb(31, 30, 30);
   width: 30rem;
   height: 45rem;
-  border-radius: 2rem 2rem 2rem 2rem;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 30px rgb(31, 30, 30);;
 }
 
 .bottom_div_div {
   display: grid;
-  place-content: center;
+  align-items:end;
   background-color: hsla(240, 48%, 60%, 0.501);
   width: 29rem;
   height: 43rem;
@@ -187,31 +220,34 @@ main{
   overflow: auto;
 }
 
-.foot{
-  position: sticky;
-  bottom: 0;
-}
 
 .sticky {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  font-size: 1.15rem;
+  font-size: 3rem;
 }
 
+.sticky i{
+  color: white;
+}
 
 .linkedin a i:hover{
   color: rgb(84, 84, 255);
+  transition: all 0.2s ease-in-out;
 }
 .instagram a i:hover{
-  color: rgb(231, 63, 91);
+  color: rgb(208, 69, 92);
+  transition: all 0.2s ease-in-out;
 }
 .youtube a i:hover{
   color: red;
+  transition: all 0.2s ease-in-out;
 }
 .github a i:hover{
-  color: rgb(56, 55, 55);
+  color:black;
+  transition: all 0.2s ease-in-out;
 }
 
 
@@ -252,8 +288,8 @@ main{
     display: grid;
     place-content: center;
     background-color: black;
-    width: 25rem;
-    height: 35rem;
+    width: 21rem;
+    height: 31rem;
     border-radius: 1.5rem;
   }
   
@@ -267,9 +303,6 @@ main{
   i{
     font-size: 0.9rem;
   }
-  .break_height{
-    background-color: black;
-  }
 }
 
 
@@ -279,17 +312,18 @@ main{
 .logo_text2 {
   display: flex;
   justify-content: center;
-  background-color: rgba(245, 245, 245, 0);
+  color: red;
   height: 100px;
   font-size: 9rem;
   overflow: hidden;
+  box-shadow: 1px 1px 10px red;
+  margin-top: 57px;
 }
 
 .boxex{
   padding-left: 1rem;
   padding-right: 1rem;
-  background-color: white;
-  z-index: +1;
+  background-color: black;
 }
 
 .boxex1, .boxex{
@@ -298,7 +332,7 @@ main{
   width: auto;
   justify-content: center;
   gap: 10rem;
-  background-color: white
+  background-color:black;
 }
 
 
@@ -355,21 +389,9 @@ main{
   border-radius: 1rem;
   text-shadow: 1rem;
 } */
-.box1, .box2, .box3, .box4, .box5 {
-  /* display: flex;
-  justify-content: center;
-  align-items: end; */
-  z-index: 0
-}
 .link_project {
   display: flex;
   justify-content: center;
-  position: sticky;
-  bottom: 0;
-}
-.github1{
-  position: sticky;
-  bottom: 0;
 }
 
 .text{
@@ -381,15 +403,8 @@ a{
   text-decoration-line: none;
 }
 
-.imagenishant{
-  position:fixed;
-  top: 0;
-  z-index: -1;
-  overflow: hidden;
-}
-
-.myproject_break, .myproject_break1{
-  /* background-color: black; */
+.link_project {
+  color: white;
 }
 
 @media screen and (max-width:950px){
@@ -425,10 +440,6 @@ a{
     padding-top: rem;
     gap: 2rem;
   }
-  .link_project{
-    position: sticky;
-    bottom: 0;
-  }
   .box1{
     padding-top: 3rem ;
   }
@@ -458,16 +469,8 @@ a{
     flex-direction: column;
     align-items: center;
   }
-
-  .myproject_break{
-    background-color: rgba(0, 0, 0, 0);
-  }
   .myproject_break1{
     background-color: black;
-  }
-  .link_project{
-    position: sticky;
-    bottom: 0;
   }
   .box5{
     padding-bottom: 2rem;
