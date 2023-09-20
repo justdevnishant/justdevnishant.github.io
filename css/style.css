@@ -136,6 +136,36 @@ a:hover {
   background-color: rgb(29, 28, 28);
 }
 
+.profile {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.profile_back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16rem;
+  width: 16rem;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px white;
+}
+
+.profile_picture {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+}
+
+.profile_picture:hover {
+  height: 16rem;
+  width: 16rem;
+  transition: all 0.3s ease-in-out;
+}
+
+
 h4 {
   color: white;
   font-weight: lighter;
