@@ -353,6 +353,8 @@ main{
   }
   .logo_complete_text{
     font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
   }
   .bottom{
     padding: 0.5rem 0.5rem 0.7rem 0.5rem;
