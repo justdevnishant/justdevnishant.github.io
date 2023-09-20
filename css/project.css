@@ -63,6 +63,7 @@ header{
   
 a{
     color: red;
+    text-decoration: none;
 }
   
   
@@ -77,71 +78,72 @@ a:hover {
     border-radius: 10px;
     padding: 5px;
 }
-  
-  
-.boxex{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    background-color: black;
-}
-  
-.boxex1, .boxex{
+
+/* <--main body--> */
+
+.all_content {
   display: flex;
-  height: auto;
-  width: auto;
-  justify-content: center;
-  gap: 10rem;
-  background-color:black;
-}
-  
-  
-.description {
-  display: grid;
-  justify-content: center;
   align-items: center;
-  width: 24.8rem;
-  height: 10.9rem;
-  border-radius: 0.9rem;
-  background-color: rgb(46, 46, 46);
-}
-
-
-.description_project{
-  color: whitesmoke;
-  padding-left: 1rem;
-}
-
-
-.image_project{
-  border-radius: 1rem;
-  height: 15rem;
-  width: 24.8rem;
-}
-  
-.project_image{
-  padding: 0;
-}
-  
-.link_project {
-  display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  flex-wrap:wrap;
 }
-  
-.text{
-  padding-right: 1rem;
+
+.image_project {
+  margin-top: 0.5rem;
+  height: 15rem;
+  width: 15rem;
+  background-size: contain;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  cursor: pointer;
 }
-  
-  
-a{
-  text-decoration-line: none;
+
+.box1 {
+  background-color: rgb(47, 47, 47);
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 10px grey;
 }
-  
-.link_project {
+
+.image_project:hover {
+  width: 16.5rem;
+  height: 16.5rem;
+  transition: all 0.5s 0.2s ease-in-out;
+}
+
+.project_description {
+  height: 6rem;
+  background-color: blanchedalmond;
+  margin-bottom: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  text-align: center;
+  padding-top: 1rem;
+  font-family: Poppins;
+}
+
+footer {
+  display: flex;
   color: white;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
-  
-@media screen and (max-width:950px){
+
+@media screen and (max-width:650px) {
+  .logo_text2{
+    font-size: 4rem;
+    height: 3rem;
+  }
+}
+   
+/* @media screen and (max-width:950px){
   .logo_text2{
     font-size: 8rem;
     height: 5.5rem;
@@ -209,4 +211,4 @@ a{
     padding-bottom: 2rem;
   }
   
-}
+} */
