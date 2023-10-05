@@ -90,8 +90,8 @@ a:hover {
 
 .image_project {
   margin-top: 0.5rem;
-  height: 15rem;
-  width: 15rem;
+  height: 25rem;
+  width: 25rem;
   background-size: contain;
   border-top-right-radius: 0.5rem;
   border-top-left-radius: 0.5rem;
@@ -103,9 +103,9 @@ a:hover {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
-  margin-bottom: 5rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-bottom: 8rem;
+  margin-left: 2%;
+  margin-right: 2rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   border-radius: 0.5rem;
@@ -113,8 +113,8 @@ a:hover {
 }
 
 .image_project:hover {
-  width: 16.5rem;
-  height: 16.5rem;
+  width: 28.5rem;
+  height: 28.5rem;
   transition: all 0.5s 0.2s ease-in-out;
 }
 
