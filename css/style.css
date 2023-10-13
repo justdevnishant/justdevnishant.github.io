@@ -26,11 +26,12 @@ body{
   position: sticky;
   top: 1rem;
   z-index: 10;
+  margin-right: 4%;
+  margin-left: 4%;
 }
 
 .logo {
- margin-left: 4%;
- color: red;
+  color: red;
   font-size: 1.5rem;
 }
 
@@ -39,7 +40,6 @@ body{
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  margin-right: 20%;
 }
 
 
@@ -179,8 +179,7 @@ h4 {
   display: flex;
   justify-content: center;
   position: sticky;
-  top: 1px;
-  z-index: -1;
+  top: 2rem;
 }
 
 
@@ -197,6 +196,7 @@ main{
   position: sticky;
   border-radius: 0rem 0rem 2rem 2rem;
   padding: 1rem;
+  z-index: 2;
 }
 
 
@@ -356,7 +356,7 @@ footer i {
   }
 
   .top {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin: 0;
   }
 
