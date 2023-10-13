@@ -23,19 +23,21 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 4%;
-  margin-right: 4%;
-  margin-top: 1rem;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1rem;
   position: sticky;
-  top: 1rem;
+  top: 0;
   z-index: 10;
-
+  background-color: rgba(0, 0, 0, 0.253);
 }
-  
+
+.logo {
+  font-size: 1.5rem;
+}
 
 .logo_text2 {
-  color: red;
-  font-size: 1.5rem;
+  color: rgb(94, 94, 94);
 }
   
 .top {
@@ -58,7 +60,7 @@ a:hover {
 }
   
   
-.home, .project, .connect, .hire {
+.home, .project, .clicks, .none {
     box-shadow: 2px 2px 5px rgb(213, 213, 213);
     border-radius: 10px;
     padding: 5px;
@@ -121,7 +123,7 @@ footer {
   margin-bottom: 2rem;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width: 550px) and (max-height:950px) {
   .logo_top {
     display: inline;
     position: relative;
