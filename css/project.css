@@ -222,8 +222,8 @@ footer {
 }
 .classp{
   background-color: rgba(255, 0, 0, 0.421);
-  height: 50%;
-  width: 100px;
+  height: 100rem;
+  width: 15rem;
   color: white;
   font-family: monospace;
   font-size: 1.2rem;
