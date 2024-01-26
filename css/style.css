@@ -22,13 +22,15 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1rem;
   position: sticky;
-  top: 0;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  top: 0.5rem;
   z-index: 10;
   padding-left: 4%;
   padding-right: 4%;
-  background-color: rgba(0, 0, 0, 0.253);
+  background-color: rgba(0, 0, 0, 0.423);
+  border-radius: 48px;
 }
 
 .logo {
@@ -53,9 +55,10 @@ a{
 }
 
 
-a:hover {
+.top a:hover {
   color: white;
-  transition: all 0.3s ease-in-out;
+  text-decoration:underline;
+  transition: all 0.1s ease-in-out;
 }
 
 
@@ -80,19 +83,12 @@ a:hover {
   width: 11.5rem;
   background: linear-gradient(red,yellow,blue);
   border-radius: 50%;
-  box-shadow: 5px 5px 20px 5px white;
 }
 
 .profile_picture {
   height: 11rem;
   width: 11rem;
   border-radius: 50%;
-}
-
-.profile_picture:hover {
-  height: 11.2rem;
-  width: 11.2rem;
-  transition: all ease-in;
 }
 
 .button-message {
@@ -123,11 +119,7 @@ a:hover {
   transition: box-shadow 0.3s ease-in-out;
   background-color: black;
   color: white;
-  transition: 0.4s ease-in-out;
-}
-
-.message::backdrop{
-  background-color: white;
+  transition: all 0.3s ease-in-out;
 }
 
 .inst-link{
@@ -159,8 +151,6 @@ a:hover {
   background-color: rgba(29, 28, 28, 0.474);
 }
 
-
-
 h4 {
   color: white;
   font-weight: lighter;
@@ -191,7 +181,7 @@ h4 {
 
 .back-ground0 {
   background-color: rgba(255, 255, 255, 0.378);
-  margin: 0 30%;
+  margin: 0 20%;
   position: sticky;
   border-radius: 24px;
 }
@@ -216,10 +206,19 @@ h4 {
   font-size: 3rem;
 }
 
+.game-button:hover {
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
 .result {
   text-align: center;
   color: yellow;
-  margin-top: 0.5rem;
+  margin: 0.5rem 0rem;
+}
+
+.win {
+  font-size: 1.5rem;
 }
 
 .button-centre {
@@ -231,9 +230,11 @@ h4 {
   cursor: pointer;
   color: yellow;
   padding: 0.5rem 1rem;
+  margin: 0 30%;
   background-color: black;
-  border-radius: 0px 0px 24px 24px;
+  border-radius: 24px;
   border: 1px yellow solid;
+  margin-bottom: 1rem;
 }
 
 
@@ -271,9 +272,6 @@ footer i {
 }
 .github a i:hover{
   color:black;
-  background: white;
-  border-radius: 50px;
-  transition: color,background 0.5s ease-in-out;
 }
 
 /*
@@ -303,6 +301,7 @@ footer i {
   .logo_top {
     display: inline;
     position: relative;
+    background-color: transparent;
   }
   .logo {
     padding: 0;
@@ -328,42 +327,22 @@ footer i {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+
+  .back-ground0 {
+    margin: 0 10%;
+  }
+  .back-ground{
+    gap:rem
+  }
   .bottom{
     padding: 0.5rem 0.5rem 0.7rem 0.5rem;
   }
-  .bottom_div {
-    display: grid;
-    place-content: center;
-    background-color: black;
-    width: 19rem;
-    height: 31rem;
-    border-radius: 1.5rem;
-    box-shadow: 5px 5px 20px rgb(31, 30, 30);;
+
+  .foot{
+    margin-top: 5rem;
+    background-color: rgba(0, 0, 0, 0.358);
+    border-radius: 36px;
   }
-
-
-  .bottom_div_div {
-    display: grid;
-    place-content: center;
-    width: 18rem;
-    height: 30rem;
-    border-radius: 1.5rem;
-  }
-
-  .gamename {
-    font-size: 1rem;
-  }
-
-  .game{
-    height: 6rem;
-    width: 6rem;
-    margin-left: 15px;
-    border-radius: 50%;
-    font-size: 35px;
-    background-color: rgb(48, 48, 48);
-    box-shadow: 5px 5px 5px 1px rgb(116, 116, 116);
-  }
-
 
   .sticky i{
     font-size: 2.5rem;
@@ -390,19 +369,5 @@ footer i {
   }
   .github i {
     color:black;
-    background: white;
-    border-radius: 50px;
-    transition: color,background 0.5s ease-in-out;
   }
-}
-
-
-.show {
-  color: white;
-}
-
-.reset-button {
-  height: auto;
-  width: auto;
-  padding: 0.5rem 1rem;
 }
