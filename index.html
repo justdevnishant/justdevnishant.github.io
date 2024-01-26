@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 
   <script src="https://kit.fontawesome.com/96ee3b227d.js" crossorigin="anonymous"></script>
+  <script src="script/script.js"></script>
 </head>
 <body>
   <header class="logo_top">
@@ -65,81 +66,22 @@
     </div>
   </section>
 
-
-  <main class="bottom">
-    <div class="bottom_div">
-      <div class="bottom_div_div">
-        <div class=".gamehead">
-          <h3 class="gamename">Rock Paper Scissor Game</h3>
-          <div class="gameplay">
-
-            <ul>
-              <li>
-                <button class="game" onclick="
-                  const number = Math.random();
-                  console.log(number);
-                  let choice = 0.3;
-                  if(number<=choice){
-                    console.log('tie');
-                    alert('Tie, mine was also Rock!!')
-                  }
-                  else if (number>choice && number<=0.6){
-                    console.log('loss');
-                    alert('You Loss, mine was Paper!!')
-                  }
-                  else {
-                    console.log('win');
-                    alert('You Win, mine was Scissor!!')
-                  }">👊
-                </button>
-              </li>
-
-              <li>
-                <button class="game" onclick="
-                  const number = Math.random();
-                  console.log(number);
-                  let choice = 0.6;
-                  if(number<=0.3){
-                    console.log('Win');
-                    alert('You Win, mine was Rock!!')
-                  }
-                  else if (number>0.3 && number<=choice){
-                    console.log('Tie');
-                    alert('Tie, mine was also Paper!!')
-                  }
-                  else {
-                    console.log('Loss');
-                    alert('You Loss, mine was Scissor!!')
-                  }">✋
-                </button>
-              </li>
-
-              <li>
-                <button class="game" onclick="
-                  const number = Math.random();
-                  console.log(number);
-                  let choice = 1;
-                  if(number<=0.3){
-                    console.log('Loss');
-                    alert('You Loss, mine was Rock!!')
-                  }
-                  else if (number>0.3 && number<=0.6){
-                    console.log('Win');
-                    alert('You Win, mine was Paper!!')
-                  }
-                  else {
-                    console.log('Tie');
-                    alert('Tie, mine was also Scissor!!')
-                  }">✌️
-                </button>
-              </li>
-            </ul>
-
-         </div>
-        </div>
-      </div>
-    </div> 
-   </main>
+  <div class="back-ground0">
+    <h3 style="text-align: center; color: yellow;">Rock Paper Scissor Game</h3>
+    <div class="back-ground">
+      <button class="game-button" onclick="playGame('Rock');">✊</button>
+      <button class="game-button" onclick="playGame('Paper');">✋</button>
+      <button class="game-button" onclick="playGame('Scissor');">✌️</button>
+    </div>
+    <p class="js-choice result">Your and Computer choice</p>
+    <p class="js-result result">Result</p>
+    <p class="js-score result">Score</p>
+    <div class="button-centre">
+      <button class="reset" onclick="
+      resetScore();
+    ">Reset Score</button>
+    </div>
+  </div>
    <br>
 
    <footer class="foot">

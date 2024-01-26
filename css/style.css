@@ -92,7 +92,7 @@ a:hover {
 .profile_picture:hover {
   height: 11.2rem;
   width: 11.2rem;
-  transition: all 0.3s ease-in-out;
+  transition: all ease-in;
 }
 
 .button-message {
@@ -189,92 +189,51 @@ h4 {
   color: whitesmoke;
 }
 
-
-main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.back-ground0 {
+  background-color: rgba(255, 255, 255, 0.378);
+  margin: 0 30%;
   position: sticky;
-  border-radius: 0rem 0rem 2rem 2rem;
+  border-radius: 24px;
+}
+
+.back-ground {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
   padding: 1rem;
-  z-index: 2;
+  flex-wrap: wrap;
 }
 
-
-.bottom_div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30rem;
-  height: 45rem;
-  border-radius: 2rem;
-  box-shadow: 2px 2px 30px rgb(31, 30, 30);
-}
-
-
-.bottom_div_div {
-  background-color: rgba(29, 28, 28, 0.474);
-  width: 29rem;
-  height: 43rem;
-  border-radius: 2rem;
-}
-
-.gamehead {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.gamename {
-  font-size: 2rem;
-}
-
-.game{
-  height: 3em;
-  width: 3em;
-  margin-left: 15px;
+.game-button{
+  height: 8rem;
+  width: 8rem;
   border-radius: 50%;
-  font-size: 50px;
-  background-color: rgb(48, 48, 48);
-  box-shadow: 5px 5px 5px 1px rgb(116, 116, 116);
-}
-
-.game:hover {
   background-color: black;
-  transition: all ease-in-out 0.3s;
-  box-shadow: 5px 5px 5px 1px white;
-  transition: all ease-in-out 0.3s;
-  filter: blur(0);
-  animation: nis 5s 1s  infinite linear forwards;
+  color: yellow;
+  border: 3px yellow solid;
+  box-shadow: 0px 0px 10px white;
+  cursor: pointer;
+  font-size: 3rem;
 }
 
-.game:active {
-  background-color: white;
-  box-shadow: 5px 5px 5px 1px black;
-  transition: all ease-in-out 0.3s;
-}
-
-.gamename {
-  color: white;
+.result {
   text-align: center;
-  margin-top: 10px;
+  color: yellow;
+  margin-top: 0.5rem;
 }
 
-.gameplay {
-  display: flex;
-  justify-content: center;
+.button-centre {
+  display: grid;
 }
 
-.gameplay li {
-  list-style: none;
-  margin-top: 35px;
-}
-
-.bottom_text {
-  color: red;
-  position: relative;
-  overflow: auto;
+.reset {
+  text-decoration: dashed;
+  cursor: pointer;
+  color: yellow;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  border-radius: 0px 0px 24px 24px;
+  border: 1px yellow solid;
 }
 
 
@@ -435,4 +394,15 @@ footer i {
     border-radius: 50px;
     transition: color,background 0.5s ease-in-out;
   }
+}
+
+
+.show {
+  color: white;
+}
+
+.reset-button {
+  height: auto;
+  width: auto;
+  padding: 0.5rem 1rem;
 }
