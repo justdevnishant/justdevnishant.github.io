@@ -74,46 +74,58 @@ a:hover {
   align-items: center;
   justify-content: center;
   flex-wrap:wrap;
+  gap: 10rem;
 }
 
-.image_project {
-  margin-top: 0.5rem;
-  height: 20rem;
-  width: 21rem;
-  background-size: contain;
-  border-top-right-radius: 0.5rem;
-  border-top-left-radius: 0.5rem;
-  cursor: pointer;
+.box1 img {
+  height: 200px;
+  width: 370px;
+  border-radius: 16px 16px 0px 0px;
 }
 
 .box1 {
+  width: 370px;
   margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 8rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  border-radius: 0.5rem;
+  background-color: rgba(57, 57, 57, 0.837);
+  cursor: pointer;
+  border-radius: 16px;
 }
 
-.image_project:hover {
-  width: 22.5rem;
-  height: 20.5rem;
-  z-index: 10;
-  transition: all 0.5s 0.2s ease-in-out;
+.card:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
 }
 
 .project_description {
-  height: 6rem;
-  background-color: blanchedalmond;
+  height: 250px;
+  color: white;
   margin-bottom: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
+  padding: 1rem;
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
   text-align: center;
-  padding-top: 1rem;
-  font-family: Poppins;
+  color: rgb(0, 195, 255);
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.resource {
+  margin-top: 10px;
+  text-align: end;
+  font-size: 22px;
+  color: rgb(255, 178, 77);
+  font-family: cursive;
+}
+
+.status-of-pro::after {
+  content: "Currently Working";
+  color: rgb(97, 255, 54);
 }
 
 footer {
