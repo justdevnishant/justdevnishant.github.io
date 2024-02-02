@@ -14,8 +14,7 @@
 .back{
     background-image: url("https://www.sugarfina.com/media/wysiwyg/hollywood/Hollywood_HP_Secondary-Desktop-Full_copy_2x.jpg");
     height: 40rem;
-    width:100%;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -98,7 +97,8 @@ input{
 .pro{
     background-color: rgba(255, 0, 0, 0.508);
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 3rem;
 }
 
@@ -106,18 +106,17 @@ input{
     height: 30rem;
     width: 30rem;
     background-color: rgba(255, 0, 0, 0.508);
-    border-radius: 10%;
+    border-radius: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px black solid;
     margin: 1rem;
 }
 
 .div-image1 {
     width: 29rem;
     height: 29rem;
-    border-radius: 10%;
+    border-radius: 24px;
 }
 
 /* main */
@@ -171,11 +170,11 @@ main{
 
 .footer_div1 {
     background-color: rgb(255, 116, 116);
-    height: 30rem;
-    display: flex;   
-    justify-content: space-evenly;
-    align-content: center;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem 0rem;
 }
 
 .footer-div-div{
@@ -224,11 +223,5 @@ main{
 
     .none{
         display: none;
-    }
-
-    .back{
-        background-color: black;
-        height: 40rem;
-        background-image: none;
     }
 }
