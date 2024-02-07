@@ -12,7 +12,11 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 15px 30px;
+    position: sticky;
+    top: 3px;
+    z-index: 1;
+    background-color: rgba(201, 201, 201, 0.529);
 }
 
 .loogo img {
@@ -36,7 +40,6 @@ header {
 }
 
 .search-input {
-    margin-right: 20px;
     padding: 10px 20px;
     border-radius: 24px;
     border: 0.5px rgb(146, 146, 146) solid;
@@ -44,6 +47,13 @@ header {
     font-size: 18px;
     background-color: whitesmoke;
     color: rgb(85, 85, 85);
+}
+
+.fa-solid {
+    padding: 10px 10px;
+    margin: 0;
+    background-color: whitesmoke;
+    border-radius: 50%;
 }
 
 .dark-mode-button{
@@ -109,12 +119,21 @@ header {
 }
 
 .products-showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 19rem;
     width: 18rem;
     border-radius: 24px;
     box-shadow: 2px 2px 10px rgb(219, 219, 219);
     cursor: pointer;
     background-size: cover;
+}
+
+.products-showcase img {
+    width: 15rem;
+    height: 15rem;
+
 }
 
 .pad {
@@ -130,24 +149,35 @@ header {
 .premium {
     display: flex;
     justify-content: center;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
     flex-wrap: wrap;
 }
 
-.pro-duct {
+.pro-duct img {
     height: 40rem;
-    width: 70rem;
+    width: 60rem;
     border-radius: 24px;
     box-shadow: 1px 1px 5px rgb(187, 187, 187);
     background-size: cover;
 }
 
 .pro-details {
-    height: 40rem;
-    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    width: 30rem;
     border-radius: 24px;
     box-shadow: 1px 1px 5px rgb(187, 187, 187);
-    
+}
+
+.pro-details p {
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 1rem;
 }
 
 .select-product-cart {
@@ -161,12 +191,40 @@ header {
 }
 
 .select-pro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 1rem 0rem;
     height: 32rem;
     width: 25rem;
     border-radius: 24px;
     box-shadow: 1px 1px 5px rgb(218, 218, 218);
 }
+
+.select-pro img {
+    height: 25rem;
+    width: 20rem;
+    padding-left: 2rem;
+}
+
+.select-pro p {
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 18px 0px;
+}
+
+.select-pro i {
+    margin-left: 15rem;
+    font-size: 20px;
+    color: black;
+}
+
+.select-pro i:hover {
+    background-color: rgb(195, 195, 195);
+}
+
 
 .select-pro:hover {
     -webkit-transform: scale(1.01);
@@ -251,9 +309,34 @@ li a {
     transition: all 0.8s 1s ease-in-out;
 }
 
-@media  screen and (max-width : 600px) {
+@media  screen and (max-width : 620px) {
+    header {
+        top: 0;
+        padding: 10px 0;
+        position: relative;
+        background-color: rgb(54, 54, 54);
+    }
+    .loogo img {
+        padding: 0;
+        margin: 0;
+        height: 25px;
+        width: 30px;
+    }
     .nav-link{
-        display: none;
+        font-size: 12px;
+        margin-right: 15px;
+    }
+
+    .fa-solid {
+        color: black;
+        padding: 5px;
+    }
+
+    .dark-mode-button {
+        padding: 9px 4px;
+        margin: 0;
+        border-radius: 50%; 
+        background-color: rgb(20, 20, 20);
     }
 
     .search-input {
@@ -265,13 +348,23 @@ li a {
     }
 
     .welcome {
-        width: 80%;
+        width: 90%;
     }
 
     .late{
         text-align: center;
         padding: 0;
         margin: 5rem 0 ;
+    }
+
+    .products-showcase {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .products-showcase img {
+        height: 8rem;
+        width: 8rem;
     }
 
     .premium {
@@ -281,7 +374,7 @@ li a {
         align-items: center;
     }
 
-    .pro-duct {
+    .pro-duct img {
         height: 12rem;
         width: 22rem;
     }
@@ -289,6 +382,10 @@ li a {
     .pro-details {
         width: 20rem;
         height: 6rem;
+    }
+
+    .pro-details p {
+        font-size: 10px;
     }
 
     .scroll-left, .scroll-right {
@@ -302,6 +399,18 @@ li a {
     .select-pro {
         height: 22rem;
         width: 17rem;
+    }
+
+    .select-pro img {
+        height: 16rem;
+        width: 15rem;
+    }
+
+    .select-pro p {
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 14px;
+        margin: 18px 0px;
     }
 
     footer {
@@ -320,5 +429,33 @@ li a {
 
     .copy ul {
         display: none;
+    }
+}
+
+@media  screen and (max-width : 950px) and (min-width : 620px) {
+    header {
+        position: relative;
+    }
+
+    .search-input {
+        width: 5rem;
+    }
+
+    header i {
+        color: black;
+    }
+
+    .pro-duct img {
+        width: 35rem;
+        height: 25rem;
+    }
+
+    .pro-details {
+        height: 15rem;
+        width: 30rem;
+    }
+
+    .pro-details p {
+        font-size: 20px;
     }
 }
