@@ -78,7 +78,7 @@ a:hover {
 }
 
 .box1 img {
-  height: 200px;
+  height: auto;
   width: 370px;
   border-radius: 16px 16px 0px 0px;
 }
