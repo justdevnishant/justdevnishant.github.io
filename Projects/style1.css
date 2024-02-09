@@ -50,7 +50,7 @@ header {
 }
 
 .fa-solid {
-    padding: 10px 10px;
+    padding: 16px 15px;
     margin: 0;
     background-color: whitesmoke;
     border-radius: 50%;
@@ -182,7 +182,7 @@ header {
 
 .select-product-cart {
     display: grid;
-    grid-template-columns:auto auto auto auto auto auto auto auto;
+    grid-template-columns:auto auto auto auto auto auto auto auto auto auto;
     gap: 1.5rem;
     overflow: scroll;
     padding: 0rem 5rem;
@@ -215,10 +215,12 @@ header {
     margin: 18px 0px;
 }
 
-.select-pro i {
+.select-pro button {
     margin-left: 15rem;
     font-size: 20px;
     color: black;
+    border: none;
+    border-radius: 50%;
 }
 
 .select-pro i:hover {
