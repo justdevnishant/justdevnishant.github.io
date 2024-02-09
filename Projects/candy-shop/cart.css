@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-body{
-    height: 150vw;
-}
-
 .amount {
     margin: 6rem 0rem;
     display: flex;
@@ -134,6 +130,13 @@ body{
 }
 
 .contre {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reciept {
     display: flex;
     justify-content: center;
 }
@@ -147,12 +150,60 @@ body{
     padding: 1rem 5rem;
 }
 
-.payment {
-    margin-top: 55px;
-}
 
 .your-payment  p{
     font-size: 20px;
     margin: 10px;
     font-weight: 600;
+}
+
+@media  screen and (max-width : 690px) {
+    .amount p {
+        font-size: 25px;
+    }
+
+    .product1 {
+        flex-direction: column;
+        align-items: center;
+        width: 20rem;
+        height: fit-content;
+    }
+
+    .image img {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .product-name {
+        font-size: 15px;
+    }
+
+    .product-details input {
+        font-size: 15px;
+    }
+
+    .addition p{
+        font-weight: lighter;
+    }
+
+    .order {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .your-payment {
+        width: 20rem;
+    }
+}
+
+@media  screen and (max-width : 1128px) and (min-width : 690px) {
+    .product1 {
+        width: 80%;
+        height: fit-content;
+    }
+
+    .order {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
 }
