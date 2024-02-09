@@ -78,8 +78,9 @@ a:hover {
 }
 
 .box1 img {
-  height: auto;
+  height: 200px;
   width: 370px;
+  object-fit: cover;
   border-radius: 16px 16px 0px 0px;
 }
 
