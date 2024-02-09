@@ -51,11 +51,9 @@ cart.forEach((cartItem) => {
 
 document.querySelector('.js-order-summary').innerHTML = cartSummaryHtml;
 
-console.log(totalValue);
 cart.forEach((quantity) => {
     totalValue *= quantity.quantity;
 })
-console.log(totalValue);
 
 
 document.querySelector('.js-total-amount').innerHTML = `$${(totalValue)/100}`;
