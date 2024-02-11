@@ -1,5 +1,12 @@
 import {cart, removeFromCart} from '../Projects/data/cart.js';
 import {products} from '../Projects/data/product.js';
+import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js'
+
+const today = dayjs();
+let deliveyDate = today.add(7,'days');
+deliveyDate = deliveyDate.format('DD MMM, dddd');
+console.log(deliveyDate);
+
 
 let cartSummaryHtml = '';
 let totalValue = 0;
@@ -34,14 +41,14 @@ cart.forEach((cartItem) => {
                 </div>
                 <div class="addition">
                     <p>
-                        Add AppleCare+ for HomePod mini for ₹1600.00</p>
+                        Add gift wrap and letter for someone <span style="font-weight:bold;">$3/-</span></p>
                         <button>Add</button>
                 </div>
                 <div class="order">
                     <p>Order today.Delivers to 400011††
-                        Mon 12 Feb — Free</p>
+                        <span style="color:green; font-weight:bolder;">${deliveyDate}— Free</span></p>
                     <p>Order now. Pick up, in-store:
-                        Today at Apple BKC</p>
+                        Today at Store.</p>
                 </div>
             </div>
         </div>
@@ -55,10 +62,14 @@ cart.forEach((quantity) => {
     totalValue *= quantity.quantity;
 })
 
+function updatePrice() {
+    document.querySelector('.js-total-amount').innerHTML = `$${((totalValue)/100).toFixed(2)}`;
+    document.querySelector('.js-total-amounts').innerHTML = `$${(totalValue)/100}`;
+    document.querySelector('.js-total-amountss').innerHTML = `$${((totalValue)/100).toFixed(2)}`;
+}
 
-document.querySelector('.js-total-amount').innerHTML = `$${(totalValue)/100}`;
-document.querySelector('.js-total-amounts').innerHTML = `$${(totalValue)/100}`;
-document.querySelector('.js-total-amountss').innerHTML = `$${(totalValue)/100}`;
+updatePrice();
+
 
 document.querySelectorAll('.js-delete-link')
     .forEach((link) => {
