@@ -50,3 +50,4 @@ export function removeFromCart(productId){
 
     saveToStorage();
 }
+
