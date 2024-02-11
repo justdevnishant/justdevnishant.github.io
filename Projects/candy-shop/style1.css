@@ -54,6 +54,7 @@ header {
 
 .fa-search {
     margin: 0;
+    color: black;
     background-color: whitesmoke;
     border-radius: 50%;
 }
@@ -240,6 +241,11 @@ header {
     background-color: rgb(195, 195, 195);
 }
 
+.select-pro i:active {
+    background-color: black;
+    color: whitesmoke;
+}
+
 
 .select-pro:hover {
     -webkit-transform: scale(1.01);
@@ -321,7 +327,7 @@ li a {
 .dark-mode {
     background-color: rgb(7, 7, 7);
     color: white;
-    transition: all 0.8s 1s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 @media  screen and (max-width : 620px) {
