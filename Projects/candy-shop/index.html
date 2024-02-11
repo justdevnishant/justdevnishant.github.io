@@ -6,6 +6,8 @@
   <title>Chunky Chacha</title>
   <link rel="stylesheet" href="style1.css">
   <script src="https://kit.fontawesome.com/96ee3b227d.js" crossorigin="anonymous"></script>
+  <script type="module" src="/script/webPage.js"></script>
+
 </head>
 <body>
   <header>
@@ -73,8 +75,8 @@
     </div>
   </div>
   
-  <span class="scroll-right">></span>
-  <span class="scroll-left"><</span>
+  <span class="scroll-right">&RightAngleBracket;</span>
+  <span class="scroll-left">&LeftAngleBracket;</span>
 
   <footer>
     <div>
@@ -106,15 +108,16 @@
       </ul>
     </div>
   </footer>
+  
+  <div style="display: flex; justify-content: center; background-color: rgb(55, 55, 55); padding: 1rem 0rem;">
+    <button class="dark-mode-button" onclick="enableDarkmode();">Dark</button>
+  </div>
 
-  <button type="button" onclick="enableDarkmode();" class="dark-mode-button">Dark</button>
-
-  <script type="module" src="/script/webPage.js"></script>
   <script>
     function enableDarkmode() {
-      var element = document.body;
-      element.classList.toggle('dark-mode');
+        document.body.classList.toggle('dark-mode');
     }
   </script>
+
 </body>
 </html>

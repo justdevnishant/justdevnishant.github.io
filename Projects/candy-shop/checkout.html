@@ -31,7 +31,7 @@
         <button class="check-out">Check Out</button>
     </div>
 
-    <div class="product-information js-order-summary">
+    <div class="product-information js-order-summary empty-cart">
     </div>
     
 
@@ -43,13 +43,13 @@
                     <p>Subtotal</p>
                     <p>Shipping</p>
                     <hr>
-                    <p style="font-size: 30px; font-weight: bold;">Total</p>
+                    <p style="color:#0071E3; font-size: 30px; font-weight: bold;">Total</p>
                 </div>
                 <div class="payment">
                     <p class="js-total-amounts">$100</p>
                     <p>Free</p>
                     <hr>
-                    <p style="font-size: 30px; font-weight: bold;">
+                    <p style="font-size: 30px; font-weight: bold; color:#0071E3;">
                         <span class="js-total-amountss">$100</span>
                     </p>
                 </div>
@@ -57,6 +57,16 @@
         </div>
         <button class="check-out">Check Out</button>
     </div>
+
+    <div style="display: flex; justify-content: center; margin-top: 5rem; background-color: rgb(55, 55, 55); padding: 1rem 0rem">
+        <button class="dark-mode-button" onclick="enableDarkmode();">Dark</button>
+    </div>
+
+  <script>
+    function enableDarkmode() {
+        document.body.classList.toggle('dark-mode');
+    }
+  </script>
 
     <script type="module" src="/script/checkout.js"></script>
 </body>

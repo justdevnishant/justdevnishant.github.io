@@ -145,11 +145,10 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border: 3px solid #0071E3;
+    border: 1px solid rgb(85, 85, 85);
     width: 50rem;
     padding: 1rem 5rem;
 }
-
 
 .your-payment  p{
     font-size: 20px;
