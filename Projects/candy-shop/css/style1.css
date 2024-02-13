@@ -66,6 +66,10 @@ header {
     border-radius: 50%;
 }
 
+.cart-btn {
+    border-radius: 20%;
+}
+
 .fa-solid:hover {
     background-color: white;
 }
@@ -300,9 +304,11 @@ header {
 }
 
 footer {
-    margin-top: 5rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
     padding-left: 5rem;
-    width: 90%;
+    padding-right: 10rem;
+    background-color: #999;
 }
 
 footer button {
@@ -473,8 +479,8 @@ li a {
     }
 
     footer {
-        padding: 0;
-        margin: 10px;
+        margin-top: 3rem;
+        padding: 15px;
     }
 
     footer button {
@@ -494,6 +500,10 @@ li a {
 @media  screen and (max-width : 950px) and (min-width : 620px) {
     header {
         position: relative;
+    }
+
+    .welcome {
+        width: 80%;
     }
 
     .search-input {
