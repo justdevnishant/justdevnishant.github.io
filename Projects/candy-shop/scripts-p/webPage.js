@@ -19,9 +19,7 @@ products.forEach((product) => {
             <img src="${product.image}" alt="">
             <p>${product.name}</p>
             <span>MRP $${(product.priceCents/100).toFixed(2)} /-</span>
-            <button type="button" class="js-add-to-cart" data-product-id="${product.productId}">
-                <i class="fa-solid fa-shopping-bag"></i>
-            </button>
+                <i class="fa-solid fa-shopping-bag js-add-to-cart" data-product-id="${product.productId}"></i>
         </div>
         </div> `;
 })

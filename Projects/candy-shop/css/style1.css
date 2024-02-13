@@ -225,7 +225,7 @@ header {
 }
 
 .select-pro img {
-    height: 25rem;
+    height: 22rem;
     width: 20rem;
     padding-left: 2rem;
 }
@@ -233,20 +233,28 @@ header {
 .select-pro p {
     font-family: cursive;
     font-weight: bolder;
-    font-size: 18px;
-    margin: 18px 0px;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .select-pro button {
-    margin-left: 15rem;
+    border: none;
+}
+
+.select-pro i {
+    margin-left: 40%;
+    padding: 10px 2rem;
+    margin-bottom: 20px;
     font-size: 20px;
     color: black;
     border: none;
-    border-radius: 50%;
+    border-radius: 24px;
+    background-color: #FFD700;
 }
 
 .select-pro i:hover {
-    background-color: rgb(195, 195, 195);
+    background-color: #FFE700;
 }
 
 .select-pro i:active {
@@ -260,6 +268,8 @@ header {
     transform: scale(1.01);
     transition: all 0.3s ease-in-out;
     cursor: pointer;
+    box-shadow: 2px 2px 10px rgb(218, 218, 218);
+
 }
 
 .scroll-left {
@@ -339,31 +349,22 @@ li a {
 }
 
 @media  screen and (max-width : 620px) {
-    .about-products {
-        margin-top: 20px;
-    }
 
-    .welcome {
-        margin-top: 0;
-        font-size: 1rem;
-        line-height: 1.1;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
     header {
         top: 0;
-        padding: 10px 0;
+        padding: 20px 0;
         position: relative;
         background-color: rgb(54, 54, 54);
     }
     .loogo img {
         padding: 0;
-        margin: 0;
+        margin: 5px;
         height: 25px;
         width: 30px;
     }
     .nav-link{
         font-size: 12px;
-        margin-right: 15px;
+        margin-right: 5px;
     }
 
     .fa-solid {
@@ -371,11 +372,15 @@ li a {
         padding: 5px;
     }
 
-    .dark-mode-button {
-        padding: 9px 4px;
-        margin: 0;
-        border-radius: 50%; 
-        background-color: rgb(20, 20, 20);
+    .cart-btn {
+        width: 50px;
+        padding: 8px 0px;
+        border-radius: 100px;
+        text-align: center;
+    }
+
+    .cart-btn span {
+        font-size: 12px;
     }
 
     .search-input {
@@ -384,16 +389,21 @@ li a {
 
     .about-products {
         font-size: 30px;
+        margin-top: 20px;
     }
 
     .welcome {
         width: 90%;
+        margin-top: 0;
+        font-size: 1rem;
+        line-height: 1.1;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     .late{
         text-align: center;
         padding: 0;
-        margin: 5rem 0 ;
+        margin: 5rem 0 2rem 0 ;
     }
 
     .products-showcase {
@@ -424,7 +434,7 @@ li a {
     }
 
     .pro-details p {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .scroll-left, .scroll-right {
@@ -441,15 +451,25 @@ li a {
     }
 
     .select-pro img {
-        height: 16rem;
+        height: 14rem;
         width: 15rem;
     }
 
     .select-pro p {
         font-family: cursive;
         font-weight: bolder;
-        font-size: 14px;
+        font-size: 20px;
         margin: 18px 0px;
+    }
+
+    .select-pro span {
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+    .select-pro i {
+        font-size: 15px;
+        margin: 0px 10px 10px 30%;
     }
 
     footer {
