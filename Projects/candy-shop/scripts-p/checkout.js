@@ -1,7 +1,7 @@
-import {cart, removeFromCart} from '../Projects/data/cart.js';
-import {products} from '../Projects/data/product.js';
+import {cart, removeFromCart} from '../data/cart.js';
+import {products} from '../data/product.js';
 import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js'
-import { updatePrice } from '../Projects/data/priceManager.js';
+import { updatePrice } from '../data/priceManager.js';
 
 const today = dayjs();
 let deliveyDate = today.add(7,'days');

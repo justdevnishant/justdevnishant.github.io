@@ -1,6 +1,5 @@
-import { products } from "../data/product.js";
-import {cart} from '../data/cart.js';
-import { renderOrderSummary } from "../../script/checkout.js";
+import { products } from "./product.js";
+import {cart} from './cart.js';
 
 export function updatePrice() {
     let totalValue = 0;
