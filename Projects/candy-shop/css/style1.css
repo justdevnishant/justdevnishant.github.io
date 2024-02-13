@@ -115,6 +115,7 @@ header {
     font-size: larger;
     color: rgb(105, 105, 105);
     margin: 40px 0px;
+    line-height: 1.5;
 }
 
 .late {
@@ -178,10 +179,11 @@ header {
 }
 
 .pro-details {
+    background-color: #FFD700;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30rem;
+    height: 20rem;
     width: 30rem;
     border-radius: 24px;
     box-shadow: 1px 1px 5px rgb(187, 187, 187);
@@ -189,9 +191,15 @@ header {
 
 .pro-details p {
     font-family: cursive;
+    font-weight: 600;
     font-size: 25px;
-    font-weight: bolder;
-    margin: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.color {
+    background-color: #6abaeb;
+
 }
 
 .select-product-cart {
@@ -331,6 +339,16 @@ li a {
 }
 
 @media  screen and (max-width : 620px) {
+    .about-products {
+        margin-top: 20px;
+    }
+
+    .welcome {
+        margin-top: 0;
+        font-size: 1rem;
+        line-height: 1.1;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
     header {
         top: 0;
         padding: 10px 0;
