@@ -16,7 +16,7 @@ header {
     position: sticky;
     top: 3px;
     z-index: 1;
-    background-color: rgba(201, 201, 201, 0.529);
+    backdrop-filter: blur(8px);
 }
 
 .loogo img {
@@ -29,6 +29,7 @@ header {
     text-decoration: none;
     margin-right: 15px;
     color: rgb(161, 161, 161);
+    background-color: rgba(255, 255, 255, 0.599);
     padding: 5px;
     border: 1px solid rgb(182, 182, 182);
     border-radius: 6px;
