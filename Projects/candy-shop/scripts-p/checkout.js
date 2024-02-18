@@ -27,7 +27,7 @@ export function renderOrderSummary(){
         <div class="product-box js-product-box-${matchingProduct.productId}">
             <div class="product1">
                 <div class="image">
-                    <img src="${matchingProduct.image}" alt="">
+                    <img src="./product-images/${matchingProduct.image}" alt="">
                 </div>
                 <div class="details">
                     <div class="product-details">
@@ -39,8 +39,7 @@ export function renderOrderSummary(){
                         </div>
                     </div>
                     <div class="addition">
-                        <p>
-                            Add gift wrap and letter for someone <span style="font-weight:bold;">$3/-</span></p>
+                        <p>Add gift wrap and letter for someone <span style="font-weight:bold;">$3/-</span></p>
                             <button>Add</button>
                     </div>
                     <div class="order">
