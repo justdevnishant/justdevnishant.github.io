@@ -45,17 +45,17 @@ export const products = [{
     image:'image-7.png',
     name: 'Hypnosis candy',
     priceCents: 299,
-    productId: 'a7'
+    productId: 'a8'
 },
 {
     image:'image-8.png',
     name: 'Couple candy',
     priceCents: 299,
-    productId: 'a8'
+    productId: 'a9'
 },
 {
     image:'image-9.png',
     name: 'Sparkle candy',
     priceCents: 300,
-    productId: 'a9'
+    productId: 'a10'
 },];

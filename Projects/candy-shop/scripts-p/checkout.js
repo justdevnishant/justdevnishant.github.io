@@ -7,7 +7,7 @@ const today = dayjs();
 let deliveyDate = today.add(7,'days');
 deliveyDate = deliveyDate.format('DD MMM, dddd');
 
-export function renderOrderSummary(){
+function renderOrderSummary(){
 
     let cartSummaryHtml = '';
     cart.forEach((cartItem) => {

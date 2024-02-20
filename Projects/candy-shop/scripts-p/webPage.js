@@ -8,7 +8,7 @@ let showCase = '';
 products.forEach((product) => {
     showCase += `
         <div class="products-showcase">
-        <img src="./product-images/${product.image}" alt="">
+        <img src="./product-images/${product.image}" alt="product-image">
         </div> `
 })
 
@@ -16,7 +16,7 @@ products.forEach((product) => {
     productsHtml += `
         <div class="select-pro">
             <div">
-                <img src="./product-images/${product.image}" alt="">
+                <img src="./product-images/${product.image}" alt="product-image">
 
                 <p>${product.name}</p>
                 <span>MRP $${(product.priceCents/100).toFixed(2)} /-</span>
@@ -36,7 +36,7 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
         let cartQuantity = 0;
 
         cart.forEach((item) => {
-            cartQuantity += item.quantity;            
+            cartQuantity += item.quantity;
         })
 
         document.querySelector('.js-cart').innerHTML = cartQuantity;
