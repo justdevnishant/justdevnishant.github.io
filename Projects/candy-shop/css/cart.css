@@ -15,7 +15,7 @@
     font-family: monospace;
     font-size: 50px;
     font-weight: bold;
-    color: rgb(23, 23, 23);
+    color: rgb(81, 81, 81);
     margin-bottom: 2rem;
 }
 
@@ -43,11 +43,13 @@
 
 .product1 {
     display: flex;
-    padding: 2rem 0rem;
+    padding: 1rem 1rem;
     height: 30rem;
     width: 70rem;
-    border: 1px solid black;
+    border: 1px solid rgb(68, 68, 68);
     margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .image img {
@@ -85,7 +87,7 @@
 }
 
 .product-details button {
-    background-color: white;
+    background-color: transparent;
     color: #0071E3;
     border: none;
     font-size: 20px;
@@ -109,7 +111,7 @@
 }
 
 .addition button {
-    background-color: white;
+    background-color: transparent;
     border: none;
     color: #0071E3;
     font-size: 20px;

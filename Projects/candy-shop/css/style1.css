@@ -259,7 +259,7 @@ li a {
 
     .welcome {
         width: 90%;
-        margin-top: 0;
+        margin: 0;
         font-size: 1rem;
         line-height: 1.1;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -271,14 +271,22 @@ li a {
         margin: 5rem 0 2rem 0 ;
     }
 
+    .products-prompt{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        overflow:auto;
+        padding: 5px 2rem;
+        padding-left: 8rem;
+    }
+
     .products-showcase {
         height: 10rem;
         width: 10rem;
     }
 
     .products-showcase img {
-        height: 8rem;
-        width: 8rem;
+        height: 9rem;
+        width: 9rem;
     }
 
     .premium {
@@ -364,7 +372,7 @@ li a {
     }
 
     .pro-details {
-        height: 15rem;
+        height: 10rem;
         width: 30rem;
     }
 
