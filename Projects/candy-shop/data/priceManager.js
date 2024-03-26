@@ -25,6 +25,7 @@ export function updatePrice() {
     if (totalValue === 0) {
         document.querySelector('.empty-cart').innerHTML = `
         <div class="product-box">
+            <h1>Sweetness None! Add Some {:=)</h1><br><br><br>
             <img src="https://www.iconeasy.com/icon/256/System/Swirl%20Finder/Finder%20Candy.png">
         </div>
         `;

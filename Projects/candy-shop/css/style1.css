@@ -201,10 +201,10 @@
 
 footer {
     margin-top: 3rem;
-    padding-top: 2rem;
+    padding-top: 5rem;
     padding-left: 5rem;
     padding-right: 10rem;
-    background-color: #999;
+    background-color: #d0d0d0;
 }
 
 footer button {
