@@ -10,6 +10,9 @@ projectData.forEach(project => {
         <p class="project-title"><span>${project.name}</span></p>
         <p class="pro-des">${project.productDescreption}</p>
         <p class="resource"><span>${project.languageUsed}</span></p>
+        <div class="progress-bar">
+      <progress id="progressBar" max="100" value="${project.progress}"></progress>
+    </div>
         <!-- <p class="status-of-pro"></p> -->
       </div>
     </div>

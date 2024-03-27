@@ -5,7 +5,8 @@ export const projectData = [{
     name: 'Initial Portfolio',
     productDescreption :`It's a just a simple web page, when I learned something I make change in this as well as I show how much I have learned. This is font page of my Portfolio.`,
     languageUsed:'#html #css #js',
-    productId: 'a1a2'
+    productId: 'a1a2',
+    progress: 70
 },
 {
     link:'https://github.com/nishant0kumar/nishant0kumar.github.io',
@@ -13,7 +14,8 @@ export const projectData = [{
     name: 'Initial Portfolio',
     productDescreption:`It'a just a simple web page, when I learned something I make change in this as well as I show how much I have learned. This is initial project section here you can my project and on which I am currently working.`,
     languageUsed:'#html #css #js',
-    productId: 'a3a4'
+    productId: 'a3a4',
+    progress: 60
 },
 {
     link:'https://github.com/nishant0kumar/nishant0kumar.github.io/tree/master/Projects',
@@ -21,7 +23,8 @@ export const projectData = [{
     name: 'Candy Shop',
     productDescreption:`Building a web application where user can add candies in their cart and place a order. {Prototype #1}`,
     languageUsed:'#html #css #js',
-    productId: 'b1b2'
+    productId: 'b1b2',
+    progress: 45
 },
 {
     link:'',
@@ -29,7 +32,8 @@ export const projectData = [{
     name: 'Candy Shop',
     productDescreption:`Building a web application where user can add candies in their cart and place a order. {Prorotype #2}`,
     languageUsed:'#html #css #js',
-    productId: 'b3b4'
+    productId: 'b3b4',
+    progress: 35
 },
 {
     link:'',
@@ -37,7 +41,8 @@ export const projectData = [{
     name: 'Sweet Candy',
     productDescreption:``,
     languageUsed:'#html #css',
-    productId: 'b5b6'
+    productId: 'b5b6',
+    progress: 20
 },
 {
     link:'https://github.com/nishant0kumar/nishant0kumar.github.io/tree/master/Projects',
@@ -45,6 +50,7 @@ export const projectData = [{
     name: 'Candy Shop',
     productDescreption:``,
     languageUsed:'',
-    productId: 'b1b2b3'
+    productId: 'b1b2b3',
+    progress: 10
 },
 ];
