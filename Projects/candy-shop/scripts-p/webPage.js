@@ -20,7 +20,7 @@ products.forEach((product) => {
 
                 <p>${product.name}</p>
                 <span>MRP $${(product.priceCents/100).toFixed(2)} /-</span>
-                    <i class="fa-solid fa-shopping-bag js-add-to-cart" data-product-id="${product.productId}"></i>
+                    <i class="fa-solid a-shopping-bag js-add-to-cart" data-product-id="${product.productId}">~O~</i>
             </div>
         </div> `;
 })
