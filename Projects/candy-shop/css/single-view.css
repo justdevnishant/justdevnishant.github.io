@@ -15,12 +15,12 @@ main {
     border: 3px solid rgb(179, 179, 179);
     border-radius: 24px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .section-bar button:hover {
     background-color: black;
     color: white;
-    transition: all 0.3s ease-in-out;
 }
 
 .container {
@@ -35,7 +35,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    border: 1px solid rgb(224, 224, 224);
+    border: 0.1px solid rgb(50, 50, 50);
     border-radius: 5%;
 }
 
@@ -52,6 +52,7 @@ main {
 .img-container img {
     height: 230px;
     width: 200px;
+    transition: all 0.3s ease-in-out;
 }
 
 .product-details {
@@ -80,10 +81,13 @@ main {
     border-radius: 24px;
     background-color: #FFD700;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
 }
 
 .product-details i:hover {
-    background-color: #FFE700;
+    background-color: rgb(57, 57, 57);
+    color: #FFD700;
 }
 
 .product-details i:active {
@@ -95,7 +99,6 @@ main {
 .img-container img:hover {
     -webkit-transform: scale(1.07);
     transform: scale(1.07);
-    transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
 
