@@ -93,14 +93,15 @@ header {
 
     header {
         top: 0;
-        padding: 20px 0;
+        padding: 15px 0;
         position: relative;
+        position: sticky;
     }
     .loogo img {
         padding: 0;
-        margin: 5px;
-        height: 25px;
-        width: 30px;
+        margin-left: 5px;
+        height: 30px;
+        width: 40px;
     }
     .nav-link{
         font-size: 12px;
@@ -119,8 +120,12 @@ header {
         text-align: center;
     }
 
-    .cart-btn span {
-        font-size: 12px;
+    .cart-link i {
+        font-size: 24px;
+    }
+
+    .fa-search {
+        display: none;
     }
 
     .search-input {

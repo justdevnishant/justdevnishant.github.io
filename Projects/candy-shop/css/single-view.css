@@ -36,7 +36,7 @@ main {
     justify-content: space-evenly;
     flex-direction: column;
     border: 0.1px solid rgb(50, 50, 50);
-    border-radius: 5%;
+    border-radius: 18px;
 }
 
 .img-container {
