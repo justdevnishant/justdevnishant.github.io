@@ -3,6 +3,7 @@ import {cart} from './cart.js';
 
 export function updatePrice() {
     let totalValue = 0;
+    let value = 0;
 
     cart.forEach((cartItem) => {
 
@@ -13,14 +14,10 @@ export function updatePrice() {
         products.forEach((product) => {
             if (product.productId === productId) {
                 matchingProduct = product;
-                totalValue += product.priceCents;
+                totalValue += matchingProduct.priceCents * cartItem.quantity;
             }
         });
     });
-
-    cart.forEach((quantity) => {
-        totalValue *= quantity.quantity;
-    })
 
     if (totalValue === 0) {
         document.querySelector('.empty-cart').innerHTML = `
@@ -32,8 +29,8 @@ export function updatePrice() {
     } else {
         true;
     }
-    document.querySelector('.js-total-amount').innerHTML = `$${((totalValue)/100).toFixed(2)}`;
-    document.querySelector('.js-total-amounts').innerHTML = `$${(totalValue)/100}`;
-    document.querySelector('.js-total-amountss').innerHTML = `$${((totalValue)/100).toFixed(2)}`;
+    document.querySelector('.js-total-amount').innerHTML = `&#x20b9;${((totalValue)/100).toFixed(2)}`;
+    document.querySelector('.js-total-amounts').innerHTML = `&#x20b9;${(totalValue)/100}`;
+    document.querySelector('.js-total-amountss').innerHTML = `&#x20b9;${((totalValue)/100).toFixed(2)}`;
     
 }
