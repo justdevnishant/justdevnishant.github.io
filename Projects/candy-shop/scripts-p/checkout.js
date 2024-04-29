@@ -34,12 +34,12 @@ function renderOrderSummary(){
                         <p class="product-name">${matchingProduct.name}</p>
                         <p>${cartItem.quantity}</p>
                         <div>
-                            <p>$${(matchingProduct.priceCents/100).toFixed(2)}</p>
+                            <p>&#x20b9;${(matchingProduct.priceCents/100).toFixed(2)}</p>
                             <button class="dark-back js-delete-link update-price" data-product-id="${matchingProduct.productId}">Remove</button>
                         </div>
                     </div>
                     <div class="addition">
-                        <p>Add gift wrap and letter for someone <span style="font-weight:bold;">$3/-</span></p>
+                        <p>Add gift wrap and letter for someone <span style="font-weight:bold;"> &#x20b9;50/-</span></p>
                             <button>Add</button>
                     </div>
                     <div class="order">
