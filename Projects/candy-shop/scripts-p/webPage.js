@@ -5,14 +5,14 @@ let productsHtml = '';
 
 let showCase = '';
 
-products.forEach((product) => {
+products.slice(8,20).forEach((product) => {
     showCase += `
         <div class="products-showcase">
         <img src="./product-images/${product.image}" alt="product-image">
         </div> `
 })
 
-products.forEach((product) => {
+products.slice(0,10).forEach((product) => {
     productsHtml += `
         <div class="select-pro">
             <div">

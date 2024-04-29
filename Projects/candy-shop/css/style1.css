@@ -260,6 +260,10 @@ li a {
         margin-top: 20px;
     }
 
+    .fa-search {
+        display: none;
+    }
+
     .welcome {
         width: 90%;
         margin: 0;
