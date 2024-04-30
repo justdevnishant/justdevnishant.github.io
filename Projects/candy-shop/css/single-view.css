@@ -41,7 +41,7 @@ main {
 
 .product-container {
     width: 350px;
-    height: 400px;
+    height: 420px;
     margin: 20px 10px;
     display: flex;
     justify-content: space-evenly;
@@ -68,14 +68,17 @@ main {
 
 .product-details {
     margin: 0px 15px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.product-details p {
+.product-name {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .product-details span {
@@ -83,7 +86,7 @@ main {
     font-weight: bold;
 }
 .product-details i {
-    margin-left: 40%;
+    float: right;
     padding: 10px 2rem;
     margin-bottom: 20px;
     font-size: 20px;

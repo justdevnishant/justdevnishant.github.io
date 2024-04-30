@@ -10,11 +10,15 @@ products.forEach((product) => {
       <img src="../product-images/${product.image}" alt="product-image">
     </div>
 
+    <p class="product-name">${product.name}</p>
     <div class="product-details">
-      <p>${product.name}</p>
-      <span>MRP &#x20b9;${((product.priceCents)/100).toFixed(2)}/-</span>
-      <span>Wholesale rate: &#x20b9; ${(product.wholesaleRate/100).toFixed(2)} /-</span>
+      <div className="price">
+        <span>MRP &#x20b9;${((product.priceCents)/100).toFixed(2)}/-</span>
+        <p>Wholesale rate: &#x20b9; ${(product.wholesaleRate/100).toFixed(2)} /-<p>
+      </div>
+      <div className="cart">
       <i class="fa-solid a-shopping-bag js-add-to-cart" data-product-id="${product.productId}"><span> ~O~</span></i>
+      </div>
     </div>
   </div> `;
 

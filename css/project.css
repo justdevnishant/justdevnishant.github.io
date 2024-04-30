@@ -78,14 +78,14 @@ a:hover {
 }
 
 .box1 img {
-  height: 300px;
-  width: 400px;
+  height: 250px;
+  width: 370px;
   object-fit: cover;
   border-radius: 16px 16px 0px 0px;
 }
 
 .box1 {
-  width: 400px;
+  width: 370px;
   margin-top: 1rem;
   background-color: rgba(57, 57, 57, 0.837);
   cursor: pointer;

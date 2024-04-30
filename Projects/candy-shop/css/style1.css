@@ -122,17 +122,20 @@
     height: 32rem;
     width: 25rem;
     border-radius: 24px;
-    box-shadow: 1px 1px 5px rgb(218, 218, 218);
+    border: 1px solid rgb(121, 121, 121);
+    box-shadow: 1px 1px 1px rgb(218, 218, 218);
     transition: all 0.3s ease-in-out;
 
 }
 
 .select-pro img {
+    padding-top: 10px;
     height: 22rem;
     width: 20rem;
 }
 
-.select-pro p {
+.product-name {
+    text-align: center;
     font-family: cursive;
     font-weight: bolder;
     font-size: 24px;
@@ -140,14 +143,18 @@
     margin-bottom: 20px;
 }
 
+.select-details {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .select-pro button {
     border: none;
 }
 
 .select-pro i {
-    margin-left: 40%;
     padding: 10px 2rem;
-    margin-bottom: 20px;
     font-size: 20px;
     color: black;
     border: none;
@@ -171,33 +178,34 @@
     -webkit-transform: scale(1.01);
     transform: scale(1.01);
     cursor: pointer;
-    box-shadow: 2px 2px 10px rgb(218, 218, 218);
+    box-shadow: 1px 1px 10px rgb(218, 218, 218);
 
 }
 
 .scroll-left {
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: bolder;
     padding: 14px 18px;
     border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.149);
+    background-color: rgba(255, 255, 255, 0.752);
     position: relative;
     top: -20rem;
     z-index: 5;
+    margin-left: 25px;
     cursor: pointer;
 }
 
 .scroll-right {
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: bolder;
     padding: 14px 18px;
     border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.149);
+    background-color: rgba(255, 255, 255, 0.745);
     position: relative;
     top: -20rem;
-    left: 95%;
+    float: right;
     z-index: 5;
     cursor: pointer;
 }

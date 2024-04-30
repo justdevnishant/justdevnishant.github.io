@@ -15,9 +15,9 @@ header {
     align-items: center;
     padding: 15px 30px;
     position: sticky;
-    top: 3px;
+    top: 0px;
     z-index: 1;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(20px);
 }
 
 .loogo img {
@@ -51,13 +51,6 @@ header {
     font-size: 18px;
     background-color: whitesmoke;
     color: rgb(85, 85, 85);
-}
-
-.fa-search {
-    background-color: rgb(255, 232, 232);
-    padding: 10px;
-    border-radius: 50%;
-    color: black;
 }
 
 .cart-link:active {
@@ -108,10 +101,6 @@ header {
         margin-right: 0px;
     }
 
-    .fa-search{
-        display: none;
-    }
-
     .fa-solid {
         color: white;
         padding: 5px;
@@ -126,10 +115,6 @@ header {
 
     .cart-link i {
         font-size: 24px;
-    }
-
-    .fa-search {
-        display: none;
     }
 
     .search-input {
@@ -148,13 +133,5 @@ header {
 
     .welcome {
         width: 80%;
-    }
-
-    .search-input {
-        width: 5rem;
-    }
-
-    header i {
-        color: black;
     }
 }
