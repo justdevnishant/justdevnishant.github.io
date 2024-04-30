@@ -78,14 +78,14 @@ a:hover {
 }
 
 .box1 img {
-  height: 350px;
-  width: 470px;
+  height: 300px;
+  width: 400px;
   object-fit: cover;
   border-radius: 16px 16px 0px 0px;
 }
 
 .box1 {
-  width: 470px;
+  width: 400px;
   margin-top: 1rem;
   background-color: rgba(57, 57, 57, 0.837);
   cursor: pointer;
@@ -94,7 +94,6 @@ a:hover {
 
 .card {
   transition: all 0.4s ease-in-out;
-
 }
 
 .card:hover {
@@ -103,7 +102,7 @@ a:hover {
 }
 
 .project_description {
-  height: 200px;
+  height: 240px; 
   color: white;
   margin-bottom: 0.5rem;
   padding: 1rem;

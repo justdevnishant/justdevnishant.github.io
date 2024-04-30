@@ -108,6 +108,10 @@ header {
         margin-right: 0px;
     }
 
+    .fa-search{
+        display: none;
+    }
+
     .fa-solid {
         color: white;
         padding: 5px;
