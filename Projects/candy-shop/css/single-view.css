@@ -37,12 +37,13 @@ main {
 .container {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .product-container {
-    width: 350px;
+    width: 330px;
     height: 420px;
-    margin: 20px 10px;
+    margin: 20px 0px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
