@@ -12,8 +12,12 @@ function resetScore() {
     document.querySelector('.js-score').innerHTML = `Wins: ${score.win} Loses: ${score.lose} Tie: ${score.tie}`;
 }
 
+let computerMove;
+let result = '';
+playerMove = '';
+
 function computerGame(){
-    let computerMove = Math.random();
+    computerMove = Math.random();
     if (computerMove >= 0 && computerMove < 1/3) {
         return 'Rock'
     } else if (computerMove >= 1/3 && computerMove < 2/3) {
@@ -25,7 +29,6 @@ function computerGame(){
 
 function playGame(playerMove){
     let computerMove = computerGame();
-    let result = '';
 
     if (playerMove === 'Rock') {
         if (computerMove === 'Rock') {
