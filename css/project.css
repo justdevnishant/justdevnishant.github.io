@@ -14,9 +14,7 @@ body{
   background-color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   scroll-behavior: smooth;
-  /*background-image: url(/images/Wallpaper4.png);*/
-  background-image: url("/images/Wallpaper4.png");
-  background-repeat:repeat-y;
+  background-image: url(/images/Wallpaper4.png);
 }
 
 
@@ -78,14 +76,14 @@ a:hover {
 }
 
 .box1 img {
-  height: 250px;
-  width: 370px;
+  height: 210px;
+  width: 350px;
   object-fit: cover;
   border-radius: 16px 16px 0px 0px;
 }
 
 .box1 {
-  width: 370px;
+  width: 350px;
   margin-top: 1rem;
   background-color: rgba(57, 57, 57, 0.837);
   cursor: pointer;
@@ -102,7 +100,7 @@ a:hover {
 }
 
 .project_description {
-  height: 240px; 
+  height: 200px; 
   color: white;
   margin-bottom: 0.5rem;
   padding: 1rem;
@@ -133,40 +131,6 @@ a:hover {
   color: rgb(97, 255, 54);
 }
 
-progress {
-  display: none;
-  width: 290px;
-	margin:0;
-	background:none;
-	border: 0;
-	border-radius: 15px;
-	text-align: left;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 0.8em;
-}
-progress::-webkit-progress-bar {
-	height:20px;
-	width:250px;
-	margin:0 auto;
-	background-color: black;
-	border-radius: 15px;
-	box-shadow:0px 0px 6px white inset;
-}
-progress::-webkit-progress-value {
-	display:inline-block;
-	height:11px;
-	background: rgb(188, 187, 187);
-	border-radius: 15px;
-	box-shadow:0px 0px 6px #777 inset;
-}
-
-progress::-webkit-progress-bar:hover {
-  background-color: whitesmoke;
-}
-progress::-webkit-progress-value:hover {
-  background-color: black;
-}
-
 footer {
   display: flex;
   color: white;
@@ -195,77 +159,6 @@ footer {
   }
 }
 
-/* @media screen and (max-width:950px){
-  .logo_text2{
-    font-size: 8rem;
-    height: 5.5rem;
-  }
-  .description {
-    width: 15rem;
-    height: 10rem;
-  }
-  .image_project{
-    width: 15rem;
-    height:  12rem;
-  }
-  .boxex, .boxex1{
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-}
- */
-
-/* @media screen and (max-width:650px){
-  .logo_text2{
-    font-size: 4rem;
-    height: 3rem;
-  }
-
-  .boxex, .boxex1{
-    padding-top: rem;
-    gap: 2rem;
-  }
-  .box1{
-    padding-top: 3rem ;
-  }
-  .description {
-    width: 22rem;
-    height: 15rem;
-  }
-  .description_project{
-    font-size: 1rem;
-  }
-  .image_project{
-    height: 15rem;
-    width:  22rem;
-  }
-  .boxex{
-    display: flex;
-    flex-direction: column;
-    padding-left: 2rem;
-    align-items: center;
-    padding-right: 1rem;
-  }
-  .box1,.box2{
-    padding-right: 0rem;
-  }
-  .boxex1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 2rem;
-    padding-right: 1rem;
-  }
-  .myproject_break1{
-    background-color: black;
-  }
-  .box5{
-    padding-bottom: 2rem;
-  }
-
-} */
-
-
 /* goals.HTML FILE */
 .goal_body{
   margin: 5rem 0rem;
@@ -287,11 +180,12 @@ footer {
   align-items: center;
   padding: 1rem;
   border-radius: 24px;
+  margin-top: 1rem;
 }
 
 @media screen and (max-width:650px){
   .classp {
     height: 30rem;
-    width: 400px
+    width: 350px
   }
 }

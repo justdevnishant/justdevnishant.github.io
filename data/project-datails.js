@@ -12,7 +12,7 @@ export const projectData = [{
     link:'https://github.com/nishant0kumar/nishant0kumar.github.io',
     image:'project2.jpeg',
     name: 'Initial Portfolio',
-    productDescreption:`It'a just a simple web page, when I learned something I make change in this as well as I show how much I have learned. This is initial project section here you can my project and on which I am currently working.`,
+    productDescreption:`This is initial project section here you can check my other project and on which I am currently working or done.`,
     languageUsed:'#html #css #js',
     productId: 'a3a4',
     progress: 60
