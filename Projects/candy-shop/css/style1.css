@@ -119,6 +119,7 @@
     align-items: center;
     justify-content: center;
     margin: 1rem 0rem;
+    padding: 10rem 1rem;
     height: 32rem;
     width: 25rem;
     border-radius: 24px;
@@ -129,7 +130,7 @@
 }
 
 .select-pro img {
-    padding-top: 10px;
+    padding-top: 30px;
     height: 22rem;
     width: 20rem;
 }
@@ -154,11 +155,11 @@
 }
 
 .select-pro i {
-    padding: 10px 2rem;
+    padding: 10px 10px;
     font-size: 20px;
     color: black;
     border: none;
-    border-radius: 24px;
+    border-radius: 4px;
     background-color: #FFD700;
     transition: all 0.2s ease-in-out;
 }
@@ -254,13 +255,6 @@ li a {
     text-decoration: none;
 }
 
-
-.dark-mode {
-    background-color: rgb(7, 7, 7);
-    color: white;
-    transition: all 0.2s ease-in-out;
-}
-
 @media  screen and (max-width : 620px) {
 
     .about-products {
@@ -290,8 +284,8 @@ li a {
         display: grid;
         grid-template-columns: auto auto auto auto auto;
         overflow:auto;
-        padding: 5px 2rem;
-        padding-left: 8rem;
+        padding: 5px 1rem;
+        padding-left: 10rem;
     }
 
     .products-showcase {
@@ -300,8 +294,8 @@ li a {
     }
 
     .products-showcase img {
-        height: 9rem;
-        width: 9rem;
+        height: 8rem;
+        width: 8rem;
     }
 
     .premium {
@@ -334,25 +328,29 @@ li a {
     }
 
     .select-pro {
-        height: 22rem;
-        width: 17rem;
+        height: 25rem;
+        width: 20rem;
     }
 
     .select-pro img {
-        height: 14rem;
-        width: 15rem;
+        height: 17rem;
+        width: 17rem;
     }
 
     .select-pro p {
         font-family: cursive;
         font-weight: bolder;
-        font-size: 20px;
-        margin: 18px 0px;
+        font-size: 21px;
+        margin: 10px 0px;
     }
 
-    .select-pro span {
-        margin-left: 5px;
-        font-size: 12px;
+    .pricing {
+        margin-bottom: 15px;
+    }
+
+    .pricing p {
+        font-family: sans-serif;
+        font-size: 14px;
     }
 
     .select-pro i {
