@@ -20,9 +20,9 @@ products.slice(0,10).forEach((product) => {
 
                 <p class="product-name">${product.name}</p>
                 <div class="select-details">
-                    <div>
-                        <span>MRP &#x20b9; ${(product.priceCents/100).toFixed(2)} /-</span>
-                        <p>Wholesale Rate: &#x20b9; ${(product.wholesaleRate/100).toFixed(2)} /-</p>
+                    <div class="pricing">
+                        <p>MRP &#x20b9; ${(product.priceCents/100).toFixed(2)} /-</p>
+                        <p>Wholesale Rate: &#x20b9;${(product.wholesaleRate/100).toFixed(2)} /-</p>
                     </div>  
                     <div>
                         <i class="fa-solid a-shopping-bag js-add-to-cart" data-product-id="${product.productId}">~O~</i>
