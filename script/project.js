@@ -9,7 +9,6 @@ projectData.forEach(project => {
       <div class="project_description">
         <p class="project-title"><span>${project.name}</span></p>
         <p class="pro-des">${project.productDescreption}</p>
-        <p class="resource"><span>${project.languageUsed}</span></p>
         <!-- <p class="status-of-pro"></p> -->
       </div>
     </div>

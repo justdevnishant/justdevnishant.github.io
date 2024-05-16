@@ -9,7 +9,7 @@
 }
 
 .box1 img {
-  height: 210px;
+  height: 250px;
   width: 350px;
   object-fit: cover;
   border-radius: 16px 16px 0px 0px;
@@ -33,7 +33,7 @@
 }
 
 .project_description {
-  height: 200px; 
+  height: 170px; 
   color: white;
   margin-bottom: 0.5rem;
   padding: 1rem;

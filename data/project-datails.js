@@ -27,6 +27,15 @@ export const projectData = [{
     progress: 45
 },
 {
+    link:'https://github.com/nishant0kumar/nishant0kumar.github.io/tree/master/Projects',
+    image:'project5.jpeg',
+    name: 'hackSpace',
+    productDescreption:`This is web applicatioin where people hagout to build their idea into real and do fun.`,
+    languageUsed:'#html #css',
+    productId: 'b1b3',
+    progress: 45
+},
+{
     link:'',
     image:'candy.jpeg',
     name: 'Candy Shop',

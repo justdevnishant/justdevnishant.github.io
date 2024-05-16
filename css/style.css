@@ -170,6 +170,8 @@ h4 {
   position: inherit;
   filter: brightness(90%);
   border-radius: 18px;
+  border: 1px dotted rgb(185, 185, 185);
+
 }
 
 .card-container p {
