@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(187, 187, 187);
+    background-image: linear-gradient(black,black,grey, black);
+    background-repeat: no-repeat;
+    padding:0rem 60px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: black;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0rem 1rem;
+}
+
+.logo-div svg {
+    height: 60px;
+}
+
+main {
+    margin-top: 20px;
+    cursor: default;
+
+}
+
+main p{
+    font-size: 150px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+
+main h1 {
+    margin: 20px 0px;
+}
+
+main span {
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+
+.slider {
+    margin: 80px 0px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: default;
+}
+
+.image {
+    width: 70%;
+}
+
+.image img {
+    height: 500px;
+    width: 100%;
+    border: 1px dashed white;
+    object-fit: cover;
+}
+
+.image-details {
+    width: 30%;
+    padding: 10px;
+    border: 1px dotted whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-details p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    overflow:scroll;
+}
+
+.image-details p::-webkit-scrollbar {
+    display: none;
+}
+
+.fun-activity {
+    margin: 50px 0px;
+}
+
+.marathon {
+    display: flex;
+    margin: 10px 0px;
+    border: 1px dotted whitesmoke;
+    padding: 10px;
+    cursor: default;
+}
+
+.marathon-text span{
+    color: rgb(41, 41, 41);
+    text-decoration: underline;
+}
+
+.marathon img {
+    width: 500px;
+}
+
+.projects {
+    margin: 50px 0px;
+}
+
+.projects p{
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+}
+
+/* .wrapper-holder {
+    height: 100%;
+    width: 100%;
+    animation: slider 30s ease-in-out infinite alternate;
+}
+ */
+.scroll {
+  display: flex;  
+  gap: 30px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  box-shadow: inset 1px 1px 100px #000;
+  padding: 5px;
+  margin: 50px 0px;
+}
+
+
+@keyframes slider {
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+
+.card {
+    z-index: -1;
+    position: relative;
+}
+
+.card p {
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    text-align: center;
+}
+
+.card img {
+    height: 350px;
+    width: 400px;
+    object-fit: cover;
+    z-index: -2;
+    position: inherit;
+}
+
+.ideas-section {
+    margin: 50px;
+}
+
+.ideas1 {
+    display: flex;
+    gap: 5px;
+    align-items: center;  
+    margin: 50px 0px; 
+}
+
+.ideas {
+    margin: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+
+.idea-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 800px;
+    background-color: rgb(0, 0, 0);
+    margin: 5px 10px;
+}
+
+.death {
+    transform: rotate(270deg);
+    text-wrap: nowrap;
+    width: 10%;
+    z-index: -1;
+}
+
+.idea-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    margin:5px 10px;
+
+}
+.idea-container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    margin:5px 10px;
+
+}
+.idea-container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    margin:5px 10px;
+
+}
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width:500px){
+ nav {
+    display: none;
+ }   
+
+ main p {
+    font: 10px;
+ }
+}
