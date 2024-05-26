@@ -31,6 +31,5 @@ let text = `<h3 style="text-align: center; color: yellow;">Rock Paper Scissor Ga
 ">Reset Score</button>
 </div>`
 
-console.log(text);
 
-document.querySelector('.js-game-render').innerHTML = text;
+/* document.querySelector('.js-game-render').innerHTML = text; */
