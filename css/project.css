@@ -37,7 +37,7 @@
   color: white;
   margin-bottom: 0.5rem;
   padding: 1rem;
-  font-family: cursive;
+  font-family: monospace;
   display: flex;
   flex-direction: column;
 }
