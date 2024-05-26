@@ -15,13 +15,7 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   scroll-behavior: smooth;
   background-image: linear-gradient(black,rgb(50, 50, 50),black);
-
 }
-
-::-webkit-scrollbar {
-  display: none;
-}
-
 
 .logo_top {
   display: flex;
@@ -133,6 +127,11 @@ h4 {
   font-weight: bolder;
   cursor:default;
 }
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
 
 .scroll {
   display: flex;
