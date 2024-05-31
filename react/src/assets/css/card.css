@@ -1,0 +1,137 @@
+/* <--main body--> */
+
+.all_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin: 4rem 0rem;
+    gap: 5rem;
+  }
+  
+  .box1 img {
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 16px 16px 0px 0px;
+  }
+  
+  .box1 {
+    width: 350px;
+    margin-top: 1rem;
+    background-color: rgba(57, 57, 57, 0.837);
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  
+  .card {
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .card:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  
+  .project_description {
+    height: 170px; 
+    color: white;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-title {
+    text-transform: uppercase;
+    font-family: fantasy;
+    text-align: center;
+    color: rgb(0, 255, 72);
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  .resource {
+    margin-top: 10px;
+    text-align: end;
+    font-size: 22px;
+    color: rgb(255, 178, 77);
+    font-family: cursive;
+  }
+  
+  .status-of-pro::after {
+    content: "Currently Working";
+    color: rgb(97, 255, 54);
+  }
+
+  .back-link {
+    text-align: center;
+  }
+  
+  footer {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .text1 {
+    font-size: 16px;
+  }
+  
+  .github1 a{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  @media screen and (max-width: 550px) and (max-height:950px) {
+    .all_content {
+      margin: 2rem 0rem;
+    }
+  }
+  
+  /* goals.HTML FILE */
+  .goal_body{
+    padding: 5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background-color: wheat;
+  }
+
+  .title-name {
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+  }
+  .classp{
+    background-color: rgba(255, 0, 0, 0.421);
+    width: 40rem;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+    line-height: 23px;
+    font-size: 16px;
+    font-weight: bolder;
+    flex-direction: column;
+    padding: 30px 16px;
+    text-align: justify;
+    border-radius: 24px;
+    margin-top: 1rem;
+  }
+
+  .date {
+    color: red;
+    text-align: end;
+  }
+  
+  @media screen and (max-width:650px){
+    .classp {
+      height: auto;
+      width: 350px
+    }
+  }
