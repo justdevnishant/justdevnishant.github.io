@@ -2,37 +2,37 @@
 export const projectData = [{
     link:'https://github.com/nishant0kumar/nishant0kumar.github.io',
     image: 'project1.jpeg',
-    name: 'Initial Portfolio',
+    name: 'Portfolio',
     productDescreption :`It's a just a simple web page, when I learned something I make change in this as well as I show how much I have learned. This is font page of my Portfolio.`,
     languageUsed:'#html #css #js',
     productId: 'a1a2',
     progress: 70
 },
 {
-    link:'https://github.com/nishant0kumar/nishant0kumar.github.io',
-    image:'project2.jpeg',
-    name: 'Initial Portfolio',
-    productDescreption:`This is initial project section here you can check my other project and on which I am currently working or done.`,
-    languageUsed:'#html #css #js',
-    productId: 'a3a4',
-    progress: 60
-},
-{
-    link:'https://github.com/nishant0kumar/nishant0kumar.github.io/tree/master/Projects',
+    link:'https://github.com/nishant0kumar/',
     image:'web-page-light.jpeg',
     name: 'Candy Shop',
     productDescreption:`Building a web application where user can add candies in their cart and place a order. {Prototype #1}`,
-    languageUsed:'#html #css #js',
+    languageUsed:'#html #css #js #reactjs',
     productId: 'b1b2',
     progress: 45
 },
 {
-    link:'https://github.com/nishant0kumar/nishant0kumar.github.io/tree/master/Projects',
+    link:'https://github.com/nishant0kumar/',
     image:'project5.jpeg',
     name: 'hackSpace',
     productDescreption:`This is web applicatioin where people hagout to build their idea into real and do fun.`,
-    languageUsed:'#html #css',
+    languageUsed:'#html #css #reactjs',
     productId: 'b1b3',
+    progress: 45
+},
+{
+    link:'https://github.com/nishant0kumar/',
+    image:'project6.jpeg',
+    name: 'Liabil',
+    productDescreption:`This is web applicatioin to track your spending habits. You can also have data of your credits and debits in one place.`,
+    languageUsed:'#html #css #reactjs',
+    productId: 'a3a4',
     progress: 45
 },
 {
@@ -52,14 +52,5 @@ export const projectData = [{
     languageUsed:'#html #css',
     productId: 'b5b6',
     progress: 20
-},
-{
-    link:'https://github.com/nishant0kumar/nishant0kumar.github.io/tree/master/Projects',
-    image:'web-page-dark.jpeg',
-    name: 'Candy Shop',
-    productDescreption:``,
-    languageUsed:'',
-    productId: 'b1b2b3',
-    progress: 10
-},
+}
 ];
