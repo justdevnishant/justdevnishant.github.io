@@ -9,7 +9,7 @@ export const projectData = [{
     progress: 70
 },
 {
-    link:'https://github.com/nishant0kumar/',
+    link:'https://sweet-house-five.vercel.app',
     image:'web-page-light.jpeg',
     name: 'Candy Shop',
     productDescreption:`Building a web application where user can add candies in their cart and place a order. {Prototype #1}`,
@@ -18,7 +18,7 @@ export const projectData = [{
     progress: 45
 },
 {
-    link:'https://github.com/nishant0kumar/',
+    link:'https://hackspace.vercel.app',
     image:'project5.jpeg',
     name: 'hackSpace',
     productDescreption:`This is web applicatioin where people hagout to build their idea into real and do fun.`,
@@ -27,7 +27,7 @@ export const projectData = [{
     progress: 45
 },
 {
-    link:'https://github.com/nishant0kumar/',
+    link:'https://liabil.vercel.app',
     image:'project6.jpeg',
     name: 'Liabil',
     productDescreption:`This is web applicatioin to track your spending habits. You can also have data of your credits and debits in one place.`,

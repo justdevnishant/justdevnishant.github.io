@@ -2,7 +2,7 @@ import {projectData} from '../data/project-datails.js'
 
 let projectHtml = '';
 
-projectData.forEach(project => {
+projectData.splice(1,4).forEach(project => {
     projectHtml += `<div class="row-slider">
     <div class="card-container">
       <img src="images/${project.image}" alt="PRoejects">
