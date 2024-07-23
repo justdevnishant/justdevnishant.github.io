@@ -37,7 +37,6 @@
   position: fixed;
   top: 0;
   right: inherit;
-
 }
 
 .close-button button {
@@ -172,31 +171,8 @@ footer {
   }
 }
 
-/* goals.HTML FILE */
-.goal_body{
-  margin: 5rem 0rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 5rem;
-}
-.classp{
-  background-color: rgba(255, 0, 0, 0.421);
-  height: 20rem;
-  width: 40rem;
-  color: white;
-  font-family: monospace;
-  font-size: 1rem;
-  font-weight: bolder;
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  border-radius: 24px;
-  margin-top: 1rem;
-}
-
 @media screen and (max-width:650px){
+
   .classp {
     height: 30rem;
     width: 350px
