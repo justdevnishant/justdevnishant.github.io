@@ -310,6 +310,7 @@ footer i {
     display: flex;
     flex-direction: column;
     height: 100%;
+    width: 100%;
   }
 
   .width-divide {
@@ -329,7 +330,7 @@ footer i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
     margin: 100px 20px;
   }
 

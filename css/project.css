@@ -6,8 +6,8 @@
 
 
 .profile-image img{
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
   position: static;
   border-radius: 50%;
   margin-top: 1.5rem;
@@ -151,6 +151,10 @@ footer {
 }
 
 @media screen and (max-width: 550px) and (max-height:950px) {
+  .profile-image img {
+    margin-top: 0;
+  }
+
   .logo_top {
     display: inline;
     position: relative;
@@ -168,6 +172,19 @@ footer {
   .top {
     font-size: 0.8rem;
     margin: 0;
+  }
+
+  .box1 {
+    width: 300px;
+    height: max-content;
+  }
+
+  .frame-js {
+    display: none;
+  }
+
+  .github1 {
+    font-size: 24px;
   }
 }
 
