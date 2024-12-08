@@ -16,7 +16,6 @@ body{
   width: auto;
   height: auto;
   background-color: rgb(15 23 42);
-  /*background-color: #2ee872;*/
   font-family: poppins;
   scroll-behavior: smooth;
   display: flex;
@@ -29,79 +28,19 @@ body{
 .width-divide {
   display: flex;
   justify-content: center;
-  width: 10%;
+  width: 15%;
   border-right: 2px solid rgb(42, 52, 83);
-  margin-right: 1rem;
-}
-
-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  position: fixed;
-}
-
-.width-divide-2{
-  width: 55%;
-}
-.width-divide-3{
-  width: 30%;
-  height: 150vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: White;
-  font-size: 20px;
-  cursor: default;
-}
-
-.width-divide-3-div {
-  position: sticky;
-  top: 10vh;
-  text-align: center;
-}
-
-.width-divide-3-div a {
-  text-decoration: none;
-}
-
-.width-divide-3 .width-divide-3-div div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: wheat;
-  font-size: 60px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  background-image: url("/images//IMG_20240701_172418.jpg");
-  background-size: cover;
-  height: 250px;
-  width: 100%;
-  border-radius: 8px;
-  margin: 4rem 0;
-}
-
-.width-divide-3-div div ul{
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.list-song {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 35px;
-  text-decoration: underline;
-  list-style: none;
+  margin-left: 3rem;
 }
 
 .logo_top {
+  position: fixed;
   display: flex;
+  top: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 15rem 0rem 0rem 0rem;
+  height: 100vh;
 }
 
 .hr {
@@ -119,16 +58,19 @@ header {
 
 
 .top a{
-  color: rgb(87, 133, 249);
-  color: rgb(0, 58, 195);
+  color: #e5e7eb;
   text-decoration: none;
   transition: all 0.4s ease-in-out;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .top a:hover {
   color: rgb(137, 227, 255);
   text-shadow: none;
+}
+
+.width-divide-2{
+  width: 60%;
 }
 
 .my-details {
@@ -171,7 +113,7 @@ header {
 .info {
   position: relative;
   font-size: 18px;
-  color: rgb(201, 201, 201);
+  color: rgb(148 163 184);
   font-family: poppins;
   line-height: 30px;
 }
@@ -228,7 +170,6 @@ h4 {
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease-in-out;
-  cursor: pointer;
   transform: rotate(1deg);
   filter: brightness(70%);
 
@@ -259,91 +200,46 @@ h4 {
   text-shadow: 0px 0px 5px black;
 }
 
-.back-ground0 {
-  background-color: rgb(0, 0, 0);
-  border-radius: 24px;
-  font-size: 24px;
-  margin-bottom: 10rem;
-  padding-top: 3rem;
-}
-
-.back-ground {
+.width-divide-3{
+  width: 25%;
+  height: 220vh;
   display: flex;
-  gap: 2rem;
-  justify-content: center;
-  padding: 1rem;
-  flex-wrap: wrap;
-}
-
-.game-button{
-  height: 8rem;
-  width: 8rem;
-  border-radius: 50%;
-  background-color: black;
-  color: yellow;
-  border: 3px yellow solid;
-  box-shadow: 0px 0px 10px white;
-  cursor: pointer;
-  font-size: 3rem;
-}
-
-.game-button:hover {
-  background-color: white;
-  transition: all 0.3s ease-in-out;
-}
-
-.result {
-  text-align: center;
-  color: yellow;
-  margin: 0.5rem 0rem;
-}
-
-.win {
-  font-size: 1.5rem;
-}
-
-.button-centre {
-  display: grid;
-}
-
-.reset {
-  text-decoration: dashed;
-  cursor: pointer;
-  color: yellow;
-  padding: 0.5rem 1rem;
-  margin: 0 30%;
-  background-color: black;
-  border-radius: 24px;
-  border: 1px yellow solid;
-  margin-bottom: 1rem;
-}
-
-.video {
-  padding: 5rem 0rem ;
-  display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
-  z-index: 20;
+  justify-content: center;
+  color: White;
+  font-size: 20px;
+  cursor: default;
+}
+
+.width-divide-3-div {
   position: sticky;
-  background-color: white;
+  top: 10vh;
+  text-align: center;
 }
 
-.video p {
-  color:black;
+.width-divide-3-div a {
+  text-decoration: none;
+}
+
+.width-divide-3 .width-divide-3-div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+  font-size: 60px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 40px;
-  margin-bottom: 1rem;
+  background-image: url("/images/clicks/IMG_20240701_172418.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  border-radius: 8px;
 }
 
-.video video {
-  border-radius: 10px;
-  border: 1px solid white;
-  width: 100%;
-  height: 650px;
-  object-fit: cover;
-  border: 1px solid black;
+.width-divide-3-div div ul{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
